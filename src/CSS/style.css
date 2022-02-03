@@ -40,7 +40,9 @@ nav > img {
 
 main {
     padding: 57px 27px;
-    color: white;
+    background-image: url("https://scrimba.com/blobs/sha1:31b2a6dc2acb386fe5c97ddf52cf9535789600c0.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main--title {
@@ -57,4 +59,9 @@ main {
 .main--facts > li {
     line-height: 19px;
     padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61dafb
 }
